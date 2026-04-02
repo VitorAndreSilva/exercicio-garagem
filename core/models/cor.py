@@ -7,4 +7,4 @@ class Cor(models.Model):
         verbose_name_plural = 'cores'
 
     def __str__(self):
-        return self.nome
+        return f'{self.nome} ({self.id})'
